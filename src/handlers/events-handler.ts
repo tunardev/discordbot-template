@@ -1,6 +1,6 @@
 import { readdirSync } from 'fs';
 import { join } from 'path';
-import { SuperClient } from 'src/super-client';
+import { SuperClient } from '../super-client';
 import { Event } from '../interfaces/event';
 
 export class EventsHandler {

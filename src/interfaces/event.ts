@@ -1,4 +1,4 @@
-import { SuperClient } from 'src/super-client';
+import { SuperClient } from '../super-client';
 
 export interface Event {
   name: string;

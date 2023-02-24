@@ -2,7 +2,7 @@ import { SuperClient } from '../super-client';
 import { Event } from '../interfaces/event';
 import { REST } from '@discordjs/rest';
 import { Routes } from 'discord-api-types/v9';
-import { Command } from 'src/interfaces/command';
+import { Command } from '../interfaces/command';
 
 const ReadyEvent: Event = {
   name: 'ready',
