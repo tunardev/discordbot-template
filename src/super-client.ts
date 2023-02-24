@@ -10,12 +10,11 @@ export class SuperClient extends Client {
     super(options);
   }
 
-  public async init() {
+  public async setup() {
     await this.commandsHandler.loadCommands();
     await this.eventsHandler.loadEvents();
 
-    const token = await this.login(process.env.TOKEN);
-    return token;
+    return await this.login(process.env.TOKEN);
   }
 
   public getCommands() {

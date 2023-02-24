@@ -11,4 +11,4 @@ const client = new SuperClient({
   ]
 });
 
-client.init();
+client.setup();
